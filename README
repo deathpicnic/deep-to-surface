@@ -1,0 +1,19 @@
+--------------------------------------------
+deep-to-surface
+===============
+  a very (very) minimal tor-site grabber
+  (may work, may not)
+
+  Prep :
+    > Windows
+      - https://www.torproject.org/dist/torbrowser/11.5.2/tor-win32-0.4.7.10.zip
+        - after extracting run ``TOR/tor.exe``
+
+    > Linux
+      - tor
+        - ``systemctl start tor``
+
+  USAGE : python3 tor.py "http://<site>.onion"
+
+  @deathpicnic
+--------------------------------------------
